@@ -13,7 +13,7 @@ function Header() {
                     <a href="#inicio" className="p-2 hover:bg-zinc-100 rounded-md">Inicio</a>
                     <a href="#sobre" className="p-2 hover:bg-zinc-100 rounded-md">Sobre</a>
                     <a href="#servico" className="p-2 hover:bg-zinc-100 rounded-md">Serviços</a>
-                    <a href="#" className="p-2 hover:bg-zinc-100 rounded-md">Contato</a>
+                    <a href="#contato" className="p-2 hover:bg-zinc-100 rounded-md">Contato</a>
                 </div>
             </nav>
         </header>
