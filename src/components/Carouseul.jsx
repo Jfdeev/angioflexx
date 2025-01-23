@@ -22,15 +22,31 @@ function CarouselDemo() {
         <Card className="p-6">
           <CardContent>
             <h1 className="text-center font-bold text-2xl">Scitech</h1>
-            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="scitech"  className="justify-self-center"/>
+            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="scitech"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
         </Card>
       </CarouselItem> 
       <CarouselItem>
         <Card className="p-6">
           <CardContent>
-            <h1 className="text-center font-bold text-2xl">Straub Medical</h1>
-            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="angioflex"  className="justify-self-center"/>
+            <h1 className="text-center font-bold text-2xl">Lepu Medical</h1>
+            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
+          </CardContent>
+        </Card>
+      </CarouselItem>
+      <CarouselItem>
+        <Card className="p-6">
+          <CardContent>
+            <h1 className="text-center font-bold text-2xl">Embosoft</h1>
+            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
+          </CardContent>
+        </Card>
+      </CarouselItem>
+      <CarouselItem>
+        <Card className="p-6">
+          <CardContent>
+            <h1 className="text-center font-bold text-2xl">Optimed</h1>
+            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
         </Card>
       </CarouselItem>
