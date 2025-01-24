@@ -5,6 +5,7 @@ import About from "./About";
 import Services from "./Services";
 import Partners from "./Partners";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 function Main() {
@@ -16,6 +17,7 @@ function Main() {
             <Services />
             <Partners />
             <Contact />
+            <Footer />
         </>
     )
 }

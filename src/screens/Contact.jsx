@@ -20,7 +20,7 @@ function Contact() {
             <div className=" mt-10">
               <h2 className="mb-7 font-bold text-zinc-100 text-3xl">Onde Estamos?</h2>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153167!3d-37.81627977975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1f9c8b1e7b1!2sVictoria%20Harbour%2C%20Docklands%20VIC%203008%2C%20Australia!5e0!3m2!1sen!2sus!4v1634234567890!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d352.5532520651177!2d-48.40412263440867!3d-1.3658421996733274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd68a83549%3A0x3b068c5f69a8304b!2sNutriflex!5e0!3m2!1spt-BR!2sbr!4v1737743662137!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}
