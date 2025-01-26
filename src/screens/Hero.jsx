@@ -3,7 +3,7 @@ import logo from "../assets/hero.png";
 
 function Hero() {
     return (
-        <section id="inicio">
+        <section id="inicio" className="pt-20">
             <div className="flex flex-col lg:flex-row items-center justify-center mt-32 mb-20">
                 <div className="align-center">
                     <img src={logo} alt="sla" className="w-52 lg:w-60"/>
