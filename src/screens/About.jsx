@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
       <section className="" id="sobre">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10 justify-items-center bg-gradient-to-tr from-red-400 to-violet-600 py-40">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-items-center bg-gradient-to-tr from-red-400 to-violet-600 py-40">
           <div className="w-4/5 h-full border-solid border-2 border-zinc-50 text-center bg-zinc-100 p-10 rounded-lg shadow-2xl hover:transform hover:scale-105 transition duration-500">
             <h1 className="font-bold text-zinc-800 text-5xl">Sobre</h1>
             <p className="text-zinc-700 mt-10 text-xl font-bold">
