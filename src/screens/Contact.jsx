@@ -10,13 +10,15 @@ function Contact() {
         <form>
           <div className="flex flex-col w-4/5 mx-auto lg:w-1/2">
             <h1 className="font-bold text-5xl text-zinc-100 mb-5">Contato</h1>
-            <Label htmlFor="name" className="font-bold text-xl text-zinc-100">Nome</Label>
-            <Input id="name" placeholder="Seu Nome" className="w-full"/>
-            <Label htmlFor="email" className="font-bold text-xl text-zinc-100">Email</Label>
-            <Input id="email" placeholder="Seu Email" />
-            <Label htmlFor="phone" className="font-bold text-xl text-zinc-100">Mensagem</Label>
-            <Textarea id="phone" placeholder="Sua Mensagem" />
-            <button className="mt-5 bg-zinc-100 text-zinc-900 p-2 rounded-lg hover:bg-zinc-300 transition duration-500">Enviar</button>
+            <form action="">
+              <Label htmlFor="name" className="font-bold text-xl text-zinc-100">Nome</Label>
+              <Input id="name" placeholder="Seu Nome" className="w-full"/>
+              <Label htmlFor="email" className="font-bold text-xl text-zinc-100">Email</Label>
+              <Input id="email" placeholder="Seu Email" />
+              <Label htmlFor="phone" className="font-bold text-xl text-zinc-100">Mensagem</Label>
+              <Textarea id="phone" placeholder="Sua Mensagem" />
+              <button className="mt-5 bg-zinc-100 text-zinc-900 p-2 rounded-lg hover:bg-zinc-300 transition duration-500">Enviar</button>
+            </form>
             <div className=" mt-10">
               <h2 className="mb-7 font-bold text-zinc-100 text-3xl">Onde Estamos?</h2>
               <iframe

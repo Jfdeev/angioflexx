@@ -30,19 +30,25 @@ function Header() {
                     <div className={`absolute right-0 top-12 bg-white text-gray-800 rounded-lg shadow-lg p-4 transition-all duration-300 ease-in-out ${isOpen ? 'block' : 'hidden'} lg:flex lg:static lg:bg-transparent lg:shadow-none lg:p-0`}>
                         <a href="#inicio" className="block p-2 relative overflow-hidden rounded-md transition-all duration-300 group">
                             <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-                            <span className="relative z-10 block p-2 text-gray-800 transition-colors duration-300">Inicio</span>
+                            <span className="relative z-10 block p-2 text-gray-800 font-bold transition-colors duration-300">Inicio</span>
                         </a>
                         <a href="#sobre" className="block p-2 relative overflow-hidden rounded-md transition-all duration-300 group">
                             <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-                            <span className="relative z-10 block p-2 text-gray-800 transition-colors duration-300">Sobre</span>
+                            <span className="relative z-10 block p-2 text-gray-800 font-bold transition-colors duration-300">Sobre</span>
                         </a>
                         <a href="#servico" className="block p-2 relative overflow-hidden rounded-md transition-all duration-300 group">
                             <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-                            <span className="relative z-10 block p-2 text-gray-800 transition-colors duration-300">Serviços</span>
+                            <span className="relative z-10 block p-2 text-gray-800 font-bold transition-colors duration-300">Serviços</span>
                         </a>
+                        
+                        <a href="#parceiros" className="block p-2 relative overflow-hidden rounded-md transition-all duration-300 group">
+                            <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+                            <span className="relative z-10 block p-2 text-gray-800 font-bold transition-colors duration-300">Parceiros</span>
+                        </a>
+
                         <a href="#contato" className="block p-2 relative overflow-hidden rounded-md transition-all duration-300 group">
                             <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-                            <span className="relative z-10 block p-2 text-gray-800 transition -colors duration-300">Contato</span>
+                            <span className="relative z-10 block p-2 text-gray-800 font-bold transition -colors duration-300">Contato</span>
                         </a>
                     </div>
                 </div>

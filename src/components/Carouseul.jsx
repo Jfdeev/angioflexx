@@ -19,34 +19,42 @@ function CarouselDemo() {
   >
     <CarouselContent>
       <CarouselItem>
-        <Card className="p-6">
+        <Card className="p-6 h-80">
           <CardContent>
             <h1 className="text-center font-bold text-2xl">Scitech</h1>
-            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="scitech"  className="justify-self-center mt-10 rounded-md"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFUep-luSKRRMHAr8tXaEHZmJSMalnezGKqg&s" alt="scitech"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
         </Card>
       </CarouselItem> 
       <CarouselItem>
-        <Card className="p-6">
+        <Card className="p-6 h-80">
           <CardContent>
-            <h1 className="text-center font-bold text-2xl">Lepu Medical</h1>
-            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
+            <h1 className="text-center font-bold text-2xl">GF Medika</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVgKfkWj-7Q8iKjOeM9CWUmSJJOeRgwzNF6Q&s" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
         </Card>
       </CarouselItem>
       <CarouselItem>
-        <Card className="p-6">
+        <Card className="p-6 h-80">
           <CardContent>
-            <h1 className="text-center font-bold text-2xl">Embosoft</h1>
-            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
+            <h1 className="text-center font-bold text-2xl">Line Life</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_evCJ43XhZhJSSFUQ21d0YP8l3wa_A2wiLw&s" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
         </Card>
       </CarouselItem>
       <CarouselItem>
-        <Card className="p-6">
+        <Card className="p-6 h-80">
           <CardContent>
             <h1 className="text-center font-bold text-2xl">Optimed</h1>
-            <img src="https://th.bing.com/th/id/OIP.3gakXdVgd672HF9UUv_s9AHaDt?rs=1&pid=ImgDetMain" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
+            <img src="https://media.licdn.com/dms/image/v2/C4D0BAQF83nA4j8if1Q/company-logo_200_200/company-logo_200_200/0/1630563036645/optimed_medizinische_instrumente_gmbh_logo?e=2147483647&v=beta&t=aZ6tNZPms4XtBgReJ44dmkAhLMTItt-2ku3ADefl8EU" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
+          </CardContent>
+        </Card>
+      </CarouselItem>
+      <CarouselItem>
+        <Card className="p-6 h-80">
+          <CardContent>
+            <h1 className="text-center font-bold text-2xl">QMedics</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLILe1nPyJHkbrdb_Ge_2n4VUV0vlcyWxN-A&s" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
         </Card>
       </CarouselItem>
