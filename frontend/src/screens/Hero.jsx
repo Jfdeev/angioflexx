@@ -9,7 +9,7 @@ function Hero() {
                     <img src={logo} alt="sla" className="w-52 lg:w-60"/>
                 </div>
                 <div className="text-zinc-900 text-center">
-                    <h1 className="text-3xl font-bold">Seja bem-vindo a AngioFlex</h1>
+                    <h1 className="text-3xl font-bold">Seja bem-vindo a Angioflex</h1>
                     <p className="text-lg">O melhor lugar para você cuidar da sua saúde</p>
                 </div>
             </div>

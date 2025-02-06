@@ -21,14 +21,6 @@ function CarouselDemo() {
       <CarouselItem>
         <Card className="p-6 h-80">
           <CardContent>
-            <h1 className="text-center font-bold text-2xl">Scitech</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFUep-luSKRRMHAr8tXaEHZmJSMalnezGKqg&s" alt="scitech"  className="justify-self-center mt-10 rounded-md"/>
-          </CardContent>
-        </Card>
-      </CarouselItem> 
-      <CarouselItem>
-        <Card className="p-6 h-80">
-          <CardContent>
             <h1 className="text-center font-bold text-2xl">GF Medika</h1>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVgKfkWj-7Q8iKjOeM9CWUmSJJOeRgwzNF6Q&s" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
