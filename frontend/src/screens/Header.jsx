@@ -40,6 +40,11 @@ function Header() {
                             <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
                             <span className="relative z-10 block p-2 text-gray-800 font-bold transition-colors duration-300">Serviços</span>
                         </a>
+
+                        <a href="#produtos" className="block p-2 relative overflow-hidden rounded-md transition-all duration-300 group">
+                            <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+                            <span className="relative z-10 block p-2 text-gray-800 font-bold transition-colors duration-300">Produtos</span>
+                        </a>
                         
                         <a href="#parceiros" className="block p-2 relative overflow-hidden rounded-md transition-all duration-300 group">
                             <span className="absolute inset-0 bg-gradient-to-r from-red-400 to-violet-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
