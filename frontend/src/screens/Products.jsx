@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import catPTA from '../assets/catPTA.png';
+import stentSamoroz from '../assets/stentSamoroz.png';
+import stentPeriferico from '../assets/stentPeriferico.png';
 
 const Products = () => {
   const [openProduct, setOpenProduct] = useState(null);
@@ -7,41 +10,41 @@ const Products = () => {
     setOpenProduct(openProduct === index ? null : index);
   };
 
-  // ... (mantenha o array de products igual)
 
   const products = [
     {
-      name: "Angioplastia Coronária",
-      description: "Procedimento minimamente invasivo para desobstrução de artérias coronárias",
+      name: "Cateter de dilatação para PTA Reewarm",
+      description: "Indicado para a angioplastia transluminal percutânea (PTA) no vaso periférico.",
       specs: [
-        "Dilatação com stent medicado",
-        "Guia intracoronária 0.014",
-        "Tempo de procedimento: 1-2 horas",
-        "Recuperação: 24-48 horas"
+        "Diâmetro: 2.0-7.0mm",
+        "Comprimento: 90mm, 130mm, 150mm",
+        "Material: balão de poliuretano",
+        "Pressão de inflação: 6-20 atm",
+        "Perfil de baixa ponta"
       ],
-      image: "/images/angioplastia-coronaria.jpg"
+      image: catPTA
     },
     {
-      name: "Embolização de Míoma",
-      description: "Tratamento não cirúrgico para miomas uterinos",
+      name: "MER Self-Expandable Stent",
+      description: "Stent autoexpansível para tratamento de lesões vasculares.",
       specs: [
-        "Acesso pela artéria femoral",
-        "Uso de micropartículas embólicas",
-        "Duração: 1-3 horas",
-        "Alta hospitalar no mesmo dia"
+        "Diâmetro: 5-10mm",
+        "Comprimento: 20-60mm",
+        "Material: liga de nitinol",
+        "Cobertura: PTFE"
       ],
-      image: "/images/embolizacao-mioma.jpg"
+      image: stentSamoroz
     },
     {
-      name: "Angioplastia Periférica",
-      description: "Intervenção vascular para membros inferiores",
+      name: "Sinus SuperFlex 635",
+      description: "Stent autoexpansível para tratamento de lesões periféricas.",
       specs: [
-        "Cateteres balão de baixo perfil",
-        "Guia 0.035″",
-        "Anestesia local",
-        "Recuperação ambulatorial"
+        "Diâmetro: 5-10mm",
+        "Comprimento: 20-60mm",
+        "Material: liga de nitinol",
+        "Cobertura: PTFE"
       ],
-      image: "/images/angioplastia-periferica.jpg"
+      image: stentPeriferico
     }
   ];
 
@@ -58,15 +61,15 @@ const Products = () => {
               key={index}
               className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
             >
-              <div 
+              <div
                 className="cursor-pointer p-6 flex flex-col items-center text-center"
                 onClick={() => toggleProduct(index)}
               >
-                {/* Imagem do produto */}
-                <img 
-                  src={product.image} 
-                  alt={product.name} 
-                  className="w-32 h-32 object-cover mb-4 rounded-full"
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="object-cover mb-4 w-full h-48 max-h-48"
+                  style={{ objectFit: 'contain' }}
                 />
                 <h3 className="text-xl font-semibold text-gray-800">
                   {product.name}
@@ -76,7 +79,6 @@ const Products = () => {
                 </p>
               </div>
 
-              {/* Conteúdo expansível simplificado */}
               <div
                 className={`overflow-hidden transition-all duration-500 ${
                   openProduct === index 
@@ -84,7 +86,7 @@ const Products = () => {
                     : 'max-h-0 opacity-0'
                 }`}
               >
-                <div className="bg-gray-50 border-t border-gray-100 p-6">
+                <div className="bg-gray-50 border-t border-gray-100 p-6 relative">
                   <h4 className="text-sm font-semibold text-gray-700 mb-3">
                     Especificações Técnicas:
                   </h4>
@@ -98,6 +100,11 @@ const Products = () => {
                       </li>
                     ))}
                   </ul>
+                  <button 
+                    className="lg:absolute lg:right-6 lg:bottom-6 lg:px-6 lg:py-2 bg-gradient-to-tr from-red-400 to-violet-600 text-white font-semibold text-sm rounded-lg shadow-md hover:translate-y-1 transition-all duration-300 mt-4 lg:mt-0 w-full lg:w-auto" 
+                  >
+                    Ir para catálogo
+                  </button>
                 </div>
               </div>
             </div>
