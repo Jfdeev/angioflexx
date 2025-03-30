@@ -15,7 +15,7 @@ const Products = () => {
   const products = [
     {
       id: "cateter-pta",
-      name: "Cateter de dilatação para PTA Reewarm",
+      name: "Cateter de dilatação farmacologico para PTA Reewarm",
       description: "Indicado para a angioplastia transluminal percutânea (PTA) no vaso periférico.",
       specs: [
         "Diâmetro: 2.0-7.0mm",
@@ -29,7 +29,7 @@ const Products = () => {
     {
       id: "mer-self-expandable-stent",
       name: "MER Self-Expandable Stent",
-      description: "Stent autoexpansível para tratamento de lesões vasculares.",
+      description: "Stent autoexpansível para tratamento de lesões carotidias.",
       specs: [
         "Diâmetro: 5-10mm",
         "Comprimento: 20-60mm",
@@ -117,6 +117,15 @@ const Products = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center mt-8">
+          <a 
+          className='bg-gradient-to-tr from-red-400 to-violet-600 text-white font-semibold text-sm rounded-lg shadow-md hover:translate-y-1 transition-all duration-300 mt-4 lg:mt-0 w-full lg:w-auto p-2 text-center'
+          href='catalogos/ANGIOFLEX-CATALOGO-2025.pdf'
+          download
+          >
+            Ver catalogo Completo
+          </a>
         </div>
       </div>
     </section>

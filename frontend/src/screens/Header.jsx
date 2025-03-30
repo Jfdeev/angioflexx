@@ -11,7 +11,7 @@ function Header() {
         <header className="bg-white text-gray-800 shadow-lg fixed w-full z-10">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
                 <div className="flex items-center">
-                    <a href="#" className="bg-white -m-1.5 p-1.5 shadow-xl rounded-md transition-transform transform hover:scale-105">
+                    <a className="bg-white -m-1.5 p-1.5 shadow-xl rounded-md transition-transform transform hover:scale-105">
                         <img src="https://media.licdn.com/dms/image/v2/D5603AQE6HsQNBgwvEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1679249908766?e=2147483647&v=beta&t=RLhNa12qaiLH6mIdy68hdIcgJjsEGzUBpKnUIRnEv7g" alt="angioflex" className="w-16 rounded-md" />
                     </a>
                 </div>

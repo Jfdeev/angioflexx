@@ -7,7 +7,7 @@ import stentPeriferico from '../assets/stentPeriferico.png';
 const products = [
   {
     id: "cateter-pta",
-    name: "Cateter de dilatação para PTA Reewarm",
+    name: "Cateter de dilatação farmacologico para PTA Reewarm",
     description: "Indicado para a angioplastia transluminal percutânea (PTA) no vaso periférico.",
     specs: [
       "Diâmetro: 2.0-7.0mm",
@@ -19,33 +19,39 @@ const products = [
     p2: "O cateter de PTA com balão revestido com fármaco Reewarm™ PTX possui a tecnologia de pulverização por atomização patenteada, que permite obter um revestimento uniforme e estável do fármaco. Pode assegurar o fornecimento contínuo e suficiente de fármaco na lesão, reduzir os resíduos de fármaco no sangue e noutras lesões não visadas, e reduzir a incidência de reações adversas.",
     p3: "As partículas pequenas aumentam a concentração de paclitaxel no tecido arterial e reduzem o risco de embolia distal causado por partículas grandes.",
     image: catPTA,
-    pdf: "/catalogos/cateter-pta.pdf"
+    pdf: "/catalogos/Reewarm-PTX.pdf"
   },
   {
     id: "mer-self-expandable-stent",
-    name: "Embolização de Míoma",
-    description: "Tratamento não cirúrgico para miomas uterinos",
+    name: "MER Self-Expandable Stent",
+    description: "Stent autoexpansível para tratamento de lesões carotidias",
     specs: [
-      "Acesso pela artéria femoral",
-      "Uso de micropartículas embólicas",
-      "Duração: 1-3 horas",
-      "Alta hospitalar no mesmo dia"
+        "Diâmetro: 5-10mm",
+        "Comprimento: 20-60mm",
+        "Material: liga de nitinol",
+        "Cobertura: PTFE"
     ],
+    p1: "O MER Self-Expandable Stent é um stent autoexpansível para tratamento de lesões carotidias. O procedimento é realizado com acesso pela artéria fermoral.",
+    p2: "O stent é composto por uma liga de nitinol, que é um material biocompatível e resistente à corrosão. A cobertura do stent é feita de politetrafluoretileno (PTFE), um material que reduz a formação de trombos e a reestenose.",
+    p3: "O MER Self-Expandable Stent é indicado para o tratamento de estenoses carotídeas sintomáticas e assintomáticas, com risco de acidente vascular cerebral (AVC) ou acidente isquêmico transitório (AIT).",
     image: stentSamoroz,
-    pdf: "/catalogos/embolizacao-mioma.pdf"
+    pdf: "/catalogos/MER.pdf"
   },
   {
     id: "sinus-superflex-635",
-    name: "Angioplastia Periférica",
-    description: "Intervenção vascular para membros inferiores",
+    name: "Sinus SuperFlex 635",
+    description: "Stent autoexpansível para tratamento de lesões periféricas",
     specs: [
-      "Cateteres balão de baixo perfil",
-      "Guia 0.035″",
-      "Anestesia local",
-      "Recuperação ambulatorial"
+        "Diâmetro: 5-10mm",
+        "Comprimento: 20-200mm",
+        "Material: liga de nitinol",
+        "Cobertura: PTFE"
     ],
+    p1: "O Sinus SuperFlex 635 é um stent autoexpansível para tratamento de lesões periféricas. O procedimento é realizado com acesso pela artéria fermoral.",
+    p2: "O stent é composto por uma liga de nitinol, que é um material biocompatível e resistente à corrosão. A cobertura do stent é feita de politetrafluoretileno (PTFE), um material que reduz a formação de trombos e a reestenose.",
+    p3: "O Sinus SuperFlex 635 é indicado para o tratamento de estenoses periféricas, como as lesões na artéria ilíaca, femoral e poplítea.",
     image: stentPeriferico,
-    pdf: "/catalogos/angioplastia-periferica.pdf"
+    pdf: "/catalogos/STENT-SINUS.pdf"
   }
 ];
 
@@ -77,7 +83,7 @@ const ProductDetail = () => {
             
             {/* Conteúdo */}
             <div className="md:w-2/3 p-8 space-y-4">
-              <h2 className="text-3xl font-bold text-gray-900 mb-2 border-b pb-2">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2 border-b pb-2">
                 {product.name}
               </h2>
   
@@ -122,7 +128,7 @@ const ProductDetail = () => {
                   Baixar Catálogo
                 </a>
                 <Link 
-                  to="/" 
+                  to="/"
                   className="border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors text-center"
                 >
                   Voltar para Produtos
