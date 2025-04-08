@@ -8,8 +8,10 @@ function Contact() {
             <h1 className="font-bold text-5xl text-zinc-100 mb-5">Contato</h1>
             <div className="text-zinc-100 text-lg mb-5">
               <p><strong>Email:</strong> angioflex@angioflex.com.br</p>
-              <p><strong>Telefone:</strong> (XX) XXXX-XXXX</p>
-              <p><strong>Celular: </strong> (XX) XXXX-XXXX</p>
+              <p><strong>Telefone:</strong>  (91) 2122-0978</p>
+              <p><strong>Celular: </strong> (91) 98182-7371</p>
+              <p><strong>Celular: </strong> (91) 98308-9912</p>
+
             </div>
             <p className="text-zinc-100 text-lg mb-5">Entre em contato conosco para mais informações sobre nossos produtos e serviços.</p>
             <div className=" mt-5">
