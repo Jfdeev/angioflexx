@@ -50,6 +50,12 @@ function CarouselDemo() {
           </CardContent>
         </Card>
       </CarouselItem>
+      <CarouselItem>
+          <Card className="p-6 h-80">
+            <h1 className="text-center font-bold text-2xl">Brosmed</h1>
+            <img src="https://media.licdn.com/dms/image/v2/C4D0BAQHQzHT0aOgYdA/company-logo_200_200/company-logo_200_200/0/1631313574493?e=2147483647&v=beta&t=ywO5bB4K5Mw-g8EJ95bzUvhUwsR8Jurz7Bdzhexc5yM" alt="brosmed-logo" className="justify-self-center rounded-md" />
+          </Card>
+        </CarouselItem>
     </CarouselContent>
     <CarouselPrevious />
     <CarouselNext />
