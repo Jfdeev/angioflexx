@@ -30,7 +30,7 @@ function CarouselDemo() {
         <Card className="p-6 h-80">
           <CardContent>
             <h1 className="text-center font-bold text-2xl">Line Life</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_evCJ43XhZhJSSFUQ21d0YP8l3wa_A2wiLw&s" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
+            <img src="https://static.wixstatic.com/media/8dffae_84ef3f8654154cfe8412b9d9302e080b~mv2.png/v1/fit/w_2500,h_1330,al_c/8dffae_84ef3f8654154cfe8412b9d9302e080b~mv2.png" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
           </CardContent>
         </Card>
       </CarouselItem>
