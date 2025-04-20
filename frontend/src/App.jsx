@@ -3,7 +3,6 @@ import ProductDetail from './components/ProductDetail';
 import Main from './screens/Main';
 import { injectSpeedInsights } from '@vercel/speed-insights';
 
-
 injectSpeedInsights();
 
 function App() {
