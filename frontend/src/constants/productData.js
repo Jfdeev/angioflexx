@@ -1,5 +1,7 @@
 // src/data/productsData.js
 import catPTA from '../assets/catPTA.png';
+import stentSamoroz from '../assets/stentSamoroz.png';
+import stentPeriferico from '../assets/stentPeriferico.png';
 
 export const products = [
     {
@@ -13,7 +15,7 @@ export const products = [
             "Pressão de inflação: 6-20 atm"
         ],
         image: catPTA,
-        pdf: "/catalogos/cateter-pta.pdf"
+        pdf: "/catalogos/Reewarm-PTX.pdf"
     },
     {
         id: "mer-self-expandable-stent",
@@ -25,7 +27,8 @@ export const products = [
             "Material: liga de nitinol",
             "Cobertura: PTFE"
         ],
-        image: stentSamoroz
+        image: stentSamoroz,
+        pdf: "/catalogos/MER.pdf"
     },
     {
         id: "sinus-superflex-635",
@@ -37,7 +40,8 @@ export const products = [
             "Material: liga de nitinol",
             "Cobertura: PTFE"
         ],
-        image: stentPeriferico
+        image: stentPeriferico,
+        pdf: "/catalogos/STENT-SINUS.pdf"
     }
 ];
 
