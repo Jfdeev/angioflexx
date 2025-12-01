@@ -10,56 +10,61 @@ import {
 } from "./ui/carousel"
  
 function CarouselDemo() {
+  const partners = [
+    { name: "GF Medika", description: "Soluções em equipamentos médicos" },
+    { name: "Line Life", description: "Tecnologia em saúde cardiovascular" },
+    { name: "Optimed", description: "Instrumentos médicos de precisão" },
+    { name: "QMedics", description: "Inovação em dispositivos médicos" },
+    { name: "Brosmed", description: "Equipamentos hospitalares avançados" }
+  ];
+
   return (
     <Carousel
-    opts={{
-      align: "start",
-    }}
-    className="w-full max-w-xl mx-auto"
-  >
-    <CarouselContent>
-      <CarouselItem>
-        <Card className="p-6 h-80">
-          <CardContent>
-            <h1 className="text-center font-bold text-2xl">GF Medika</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVgKfkWj-7Q8iKjOeM9CWUmSJJOeRgwzNF6Q&s" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
-          </CardContent>
-        </Card>
-      </CarouselItem>
-      <CarouselItem>
-        <Card className="p-6 h-80">
-          <CardContent>
-            <h1 className="text-center font-bold text-2xl">Line Life</h1>
-            <img src="https://static.wixstatic.com/media/8dffae_84ef3f8654154cfe8412b9d9302e080b~mv2.png/v1/fit/w_2500,h_1330,al_c/8dffae_84ef3f8654154cfe8412b9d9302e080b~mv2.png" alt="angioflex"  className="justify-self-center rounded-md max-h-60"/>
-          </CardContent>
-        </Card>
-      </CarouselItem>
-      <CarouselItem>
-        <Card className="p-6 h-80">
-          <CardContent>
-            <h1 className="text-center font-bold text-2xl">Optimed</h1>
-            <img src="https://media.licdn.com/dms/image/v2/C4D0BAQF83nA4j8if1Q/company-logo_200_200/company-logo_200_200/0/1630563036645/optimed_medizinische_instrumente_gmbh_logo?e=2147483647&v=beta&t=aZ6tNZPms4XtBgReJ44dmkAhLMTItt-2ku3ADefl8EU" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
-          </CardContent>
-        </Card>
-      </CarouselItem>
-      <CarouselItem>
-        <Card className="p-6 h-80">
-          <CardContent>
-            <h1 className="text-center font-bold text-2xl">QMedics</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLILe1nPyJHkbrdb_Ge_2n4VUV0vlcyWxN-A&s" alt="angioflex"  className="justify-self-center mt-10 rounded-md"/>
-          </CardContent>
-        </Card>
-      </CarouselItem>
-      <CarouselItem>
-          <Card className="p-6 h-80">
-            <h1 className="text-center font-bold text-2xl">Brosmed</h1>
-            <img src="https://media.licdn.com/dms/image/v2/C4D0BAQHQzHT0aOgYdA/company-logo_200_200/company-logo_200_200/0/1631313574493?e=2147483647&v=beta&t=ywO5bB4K5Mw-g8EJ95bzUvhUwsR8Jurz7Bdzhexc5yM" alt="brosmed-logo" className="justify-self-center rounded-md" />
-          </Card>
-        </CarouselItem>
-    </CarouselContent>
-    <CarouselPrevious />
-    <CarouselNext />
-  </Carousel>
+      opts={{
+        align: "start",
+        loop: true,
+      }}
+      className="w-full max-w-6xl mx-auto"
+    >
+      <CarouselContent className="-ml-4">
+        {partners.map((partner, index) => (
+          <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
+            <div className="group p-1">
+              {/* Gradient border effect */}
+              <div className="relative h-full">
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-red-400 to-violet-600 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-500 blur"></div>
+                
+                <Card className="relative border-2 border-gray-200 hover:border-transparent transition-all duration-300 h-full">
+                  <CardContent className="flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 min-h-[300px] sm:min-h-[320px] md:h-80">
+                    {/* Partner icon placeholder */}
+                    <div className="w-32 h-32 mb-6 bg-gradient-to-br from-red-50 to-violet-50 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <svg className="w-16 h-16 text-gray-400 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-red-500 group-hover:to-violet-600 group-hover:bg-clip-text transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                      </svg>
+                    </div>
+
+                    {/* Partner name */}
+                    <h3 className="text-2xl font-bold text-gray-800 text-center mb-3 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-red-500 group-hover:to-violet-600 group-hover:bg-clip-text transition-all duration-300">
+                      {partner.name}
+                    </h3>
+
+                    {/* Partner description */}
+                    <p className="text-sm text-gray-600 text-center">
+                      {partner.description}
+                    </p>
+
+                    {/* Decorative line */}
+                    <div className="w-0 group-hover:w-16 h-1 bg-gradient-to-r from-red-500 to-violet-600 mt-4 rounded-full transition-all duration-500"></div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious className="hover:bg-gradient-to-r hover:from-red-500 hover:to-violet-600 hover:text-white transition-all duration-300" />
+      <CarouselNext className="hover:bg-gradient-to-r hover:from-red-500 hover:to-violet-600 hover:text-white transition-all duration-300" />
+    </Carousel>
   )
 }
 
